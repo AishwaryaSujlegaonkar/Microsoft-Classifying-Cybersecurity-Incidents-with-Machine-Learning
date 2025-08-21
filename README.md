@@ -31,25 +31,25 @@ Approach :
    - Compared multiple models for best trade-off.
 
 5. Final Model
+   - Random Forest significantly outperformed Logistic Regression, Decision Tree, and XGBoost.
    - Tuned Random Forest Classifier selected as best performer.
 
 Results :
-Accuracy - 89%
-Macro-F1 Score - 88%
-Precision - 88%
-Recall - 88%
-Random Forest significantly outperformed Logistic Regression, Decision Tree, and XGBoost.
+1. Accuracy - 89%
+2. Macro-F1 Score - 88%
+3. Precision - 88%
+4. Recall - 88%
 
 Skills Demonstrated :
-Data Preprocessing & Feature Engineering
-Handling Imbalanced Datasets (class weights, stratified sampling)
-Model Training & Benchmarking (RF, XGBoost, Logistic Regression, Decision Tree)
-Hyperparameter Tuning (RandomizedSearchCV)
-Evaluation Metrics (Macro-F1, Precision, Recall, Confusion Matrix)
-Feature Importance (Permutation Importance)
-Model Deployment (Joblib)
+- Data Preprocessing & Feature Engineering
+- Handling Imbalanced Datasets (class weights, stratified sampling)
+- Model Training & Benchmarking (RF, XGBoost, Logistic Regression, Decision Tree)
+- Hyperparameter Tuning (RandomizedSearchCV)
+- Evaluation Metrics (Macro-F1, Precision, Recall, Confusion Matrix)
+- Feature Importance (Permutation Importance)
+- Model Deployment (Joblib)
 
 Deliverables :
-Final Random Forest model (final_random_forest_model.pkl)
-Cleaned and processed dataset (cleaned_test_data.joblib)
-Source code with preprocessing, training, and evaluation pipelines
+- Final Random Forest model (final_random_forest_model.pkl)
+- Cleaned and processed dataset (cleaned_test_data.joblib)
+- Source code with preprocessing, training, and evaluation pipelines
